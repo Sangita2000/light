@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0; font-family: 'poppins' , sans-serif; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d2026;
+}
+.header{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+
+}
+
+NAV{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+.menu{
+    width: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s, margin-left 0.5s;
+    
+}
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s
+}
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+
+}
+
+
+
+.lamp{
+    width: 13%;
+    left: 25%;
+    top: 0;
+    position: absolute;
+}
+.light{
+    position: absolute;
+    right: 52%;
+    width: 550px;
+    top: 47%;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+
+
+
+
+.text{
+    color:#fff;
+    max-width: 600px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+
+.text h1{
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.text a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+border-radius: 30px;
+
+}
+
+
+.active{
+    background: #00986f;
+}
+
+.active span{
+    background: #fff;
+    margin-left: 31px ;
+}
+
+.on{
+    opacity: 1;
+}

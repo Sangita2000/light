@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>something new</title>
+    <link rel="stylesheet" text="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        
+<div class="nav">
+<div class="button">
+<nav>
+    <img src="menu.png" class="menu">
+    <img src="logo.png" class="logo">
+    <ul>
+        <li><a href="">LATEST</a></li>
+        <li><a href="">MODERN</a></li>
+        <li><a href="">CONTEMPORARY</a></li>
+        <li><a href="">AFFORDABLE</a></li>
+    </ul>
+    <button TYPE="button" onclick="toggleBtn()" id="btn"> <span></span></button>
+</NAV>
+<img src="lamp.png" class="lamp"> <br>
+
+
+
+<img src="light.png" class="light" id="light">
+
+
+    
+   <div class="text"> <h1> Latest<br> in Lighting</h1>
+    <p>@Sangita Das. All Rights Reserved </p>
+    <a href="">Check all Collection</a>
+   </div>
+</div>
+    </div>
+    </div>
+    </header>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+        function toggleBtn(){
+
+            btn.classList.toggle("active")
+            light.classList.toggle("on")
+        }
+    </script>
+
+</body>
+</html> 
